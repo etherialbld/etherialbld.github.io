@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <title>
+            Мерч | МИР АВТОГОНОК
+        </title>
+        <style>
+            @font-face {
+                font-family: "Toxigenesis";
+                src: url('Assets/fonts/toxigenesis-bd.otf') format('opentype');
+            }
+        </style>
+        <link rel="icon" type="image/png" href="Assets\Icons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="Assets\Icons/favicon.svg" />
+        <link rel="shortcut icon" href="Assets\Icons/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="Assets\Icons/apple-touch-icon.png" />
+        <link rel="manifest" href="Assets\Icons/site.webmanifest" />
+        <link rel="stylesheet" href="style.css" />
+        </head>
+
+    <body>
+
+        <header>
+        
+        
+
+            <div class="header">
+                <a href="index.html" class="logo"><img src="Assets\Icons/octaha.gif"></a>
+                <h1 id="title"> 
+                Мир автогонок
+                </h1>
+                <nav><h2 class=" hover"> <a href="news.html">НОВОСТИ</a> <a href="store.html">МЕРЧ</a> <a id="login" href="login.html">ВОЙТИ</a> </h2></nav>
+
+                <div id="menuToggle">
+                    <input type="checkbox" id="menuCheckbox" />
+                    
+                    <img class="wheel" src="Assets\Icons/brakedisc.png">
+                    <img src="Assets\Icons/brakesupport.png">
+                    <img class="wheel" src="Assets\Icons/tire.png">
+                    
+                    <ul id="menu">
+
+                    <li>
+                        <label for="menuCheckbox" onclick="this.parentNode.click();"><a href="index.html">ГЛАВНАЯ</a></label>
+                    </li>
+
+                    <li>
+                        <label for="menuCheckbox" onclick="this.parentNode.click();"><a href="news.html">НОВОСТИ</a></label>
+                    </li>
+                    
+                    <li>
+                        <label for="menuCheckbox" onclick="this.parentNode.click();"><a href="store.html">МЕРЧ</a></label>
+                    </li>
+
+                    <li>
+                        <label for="menuCheckbox" onclick="this.parentNode.click();"><a href="login.html">ВОЙТИ</a></label>
+                    </li>
+                    
+                    </ul>
+                </div>
+
+            </div>
+            
+                
+                
+            
+        </header>
+
+
+
+        <main>
+
+            <div class="welcome">
+                <h2>Коллекция 2025 года</h2>
+            </div>
+
+            <div class="merchGrid">
+                <div class="merchElement" id="m1"><img src="Assets/Images/merch/MA41TeeFront.png"><div class="merchBack"><img src="Assets/Images/merch/MA41TeeBack.png"><div class="merchOverlay">НЕТ В НАЛИЧИИ</div></div></div>
+                <div class="merchElement" id="m2"><img src="Assets/Images/merch/MACapFront.png"><div class="merchBack"><img src="Assets/Images/merch/MACapBack.png"><div class="merchOverlay">НЕТ В НАЛИЧИИ</div></div></div>
+                <div class="merchElement" id="m3"><img src="Assets/Images/merch/SSRCCapFront.png"><div class="merchBack"><img src="Assets/Images/merch/SSRCCapBack.png"><div class="merchOverlay">НЕТ В НАЛИЧИИ</div></div></div>
+                <div class="merchElement" id="m4"><img src="Assets/Images/merch/SSRCTeeFront.png"><div class="merchBack"><img src="Assets/Images/merch/SSRCTeeBack.png"><div class="merchOverlay">НЕТ В НАЛИЧИИ</div></div></div>
+                <div class="merchElement" id="m5"><img src="Assets/Images/merch/MASticker.png"><div class="merchBack"><img src="Assets/Images/merch/MASticker.png"><div class="merchOverlay">НЕТ В НАЛИЧИИ</div></div></div>
+            </div>
+
+        
+        </main>
+
+        
+        
+        <footer class="hover">
+        <address>
+        <p>
+            Контактная информация:
+        </p>
+        <a href="tel:+78123224141">Телефон</a>
+        <a href="mailto:414141@41st.ru">Почта</a>
+        </address>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

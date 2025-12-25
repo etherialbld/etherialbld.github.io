@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <title>
+            Регистрация | МИР АВТОГОНОК
+        </title>
+        <style>
+            @font-face {
+                font-family: "Toxigenesis";
+                src: url('Assets/fonts/toxigenesis-bd.otf') format('opentype');
+            }
+        </style>
+        <link rel="icon" type="image/png" href="Assets\Icons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="Assets\Icons/favicon.svg" />
+        <link rel="shortcut icon" href="Assets\Icons/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="Assets\Icons/apple-touch-icon.png" />
+        <link rel="manifest" href="Assets\Icons/site.webmanifest" />
+        <link rel="stylesheet" href="style.css" />
+        </head>
+
+    <body>
+
+    <div class="reg">
+        <h2>РЕГИСТРАЦИЯ</h2>
+        <form class="regForm" action="">
+            <input placeholder="Имя" type="text" id="first" name="first" required />
+
+            <input placeholder="Фамилия" type="text" id="last" name="last" required />
+
+            <input placeholder="Адрес электронной почты" type="email" id="email" name="email" required />
+
+            <input placeholder="Пароль" type="password" id="password" name="password"
+                   pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$" 
+                   title="Password must contain at least one number, 
+                           one alphabet, one symbol, and be at 
+                           least 8 characters long" required />
+
+            <a href="login.html">Уже есть аккаунт? Войти</a>
+
+            <button type="submit">
+                Зарегистрироваться
+            </button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>

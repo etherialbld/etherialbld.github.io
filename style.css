@@ -1,0 +1,734 @@
+body
+{
+    margin: 0;
+    background-color: #aadae9;
+}
+
+h1
+{
+    color:rgb(172, 13, 45);
+    font-size: 55px;
+    font-family: "Toxigenesis", sans-serif;
+}
+
+h2
+{
+    color: rgb(202, 26, 26);
+    font-size: 40px;
+    font-family: "Toxigenesis", sans-serif;
+}
+
+h3
+{
+    color: rgb(238, 57, 93);
+    font-size: 30px;
+    font-family: "Toxigenesis", sans-serif;
+}
+
+a
+{
+    color: rgb(7, 4, 88);
+    font-size: 20px;
+    font-family: arial;
+}
+
+figcaption, .list
+{
+    color:rgb(91, 87, 202);
+    font-size: 20px;
+    font-family: arial;
+}
+
+dt
+{
+    color:rgb(67, 62, 192);
+    font-size: 20px;
+    font-family: arial;
+}
+
+p
+{
+    color:rgb(91, 87, 202);
+    font-size: 20px;
+    font-family: arial;
+}
+
+.header
+{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header h2 a
+{
+    padding-left: 3rem;
+}
+
+.logo 
+{
+    display: flex;
+    overflow: hidden;
+    width: 223px;
+    height: 60%;
+    align-items: center;
+}
+
+.logo img
+{
+    width: 100%;
+    max-width: 245px;
+}
+
+.hover a
+{
+    font-family: "Toxigenesis", sans-serif;
+}
+.hover a:visited
+{
+    color: rgb(116, 6, 6);
+}
+.hover a:hover
+{
+    color: rgb(180, 180, 216);
+}
+
+#login
+{
+    font-size: 30px;
+}
+
+.imgright
+{
+    float: right;
+    display: block;
+    width: fit-content;
+    background-color: #9bcddc;
+    padding: 0.6rem;
+    width: 30rem;
+    height: 17rem;
+}
+
+
+
+header
+{
+    background-color: #ffb96e;
+    border: 0.3rem, solid, #ffa340;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+
+.troubleShooting
+{
+    display: block;
+    width: 60%;
+    background-color: #9bcddc;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.troubleShooting p
+{
+    color:rgb(34, 30, 135);
+}
+
+.troubleShooting textarea
+{
+    resize: none;
+    width: 18rem;
+}
+
+footer
+{
+    padding-top: 0.5rem;
+    display: block;
+    background-color: #ffb96e;
+    position: relative;
+    width: auto;
+    bottom: 0;
+    border: 0.3rem, solid, #ffa340;
+}
+
+input:focus {
+  background-color: rgb(176, 227, 212);
+}
+
+textarea:focus {
+  background-color: rgb(176, 227, 212);
+}
+
+.welcome
+{
+    text-align: center;
+    
+}
+
+.showroom
+{
+    height: 71rem;
+}
+
+.showroom div div
+{
+    position: relative;
+    display: block;
+    line-height: 30rem;
+    width: 40%;
+    height: 100%;
+    margin: 1rem;
+    margin-inline: 2rem;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Toxigenesis", sans-serif;
+    cursor: pointer;
+}
+
+
+.showroom div p
+{
+    width: 600px;
+    font-size: 40px;
+    font-family: "Toxigenesis", sans-serif;
+}
+
+
+
+.newsRow
+{
+    align-items: center;
+    display: flex;
+    height: 45%;
+}
+
+.merchRow
+{
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    height: 45%;
+}
+
+.news
+{
+    background-color: rgb(172, 76, 76);
+    border: 0.5rem, solid, rgb(137, 65, 65);
+    border-radius: 8px;
+    transition: all 0.1s ease;
+}
+
+.news:hover
+{
+    background-color: rgb(183, 108, 108);
+    border: 0.5rem, solid, rgb(137, 83, 83);
+    border-radius: 64px;
+}
+
+.merchandise
+{
+    justify-self: right;
+    background-color: rgb(96, 168, 165);
+    border: 0.5rem, solid, rgb(77, 141, 139);
+    border-radius: 8px;
+    transition: all 0.1s ease;
+}
+
+.merchandise:hover
+{
+    background-color: rgb(128, 179, 178);
+    border: 0.5rem, solid, rgb(102, 142, 141);
+    border-radius: 64px;
+}
+
+
+#menuToggle
+{
+  display: block;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: rgb(96, 114, 146);
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 85px;
+  height: 85px;
+  position: fixed;
+  top: 0.6rem;
+  right: 0.6rem;
+  
+  cursor: pointer;
+  
+  opacity: 0;
+  z-index: 2;
+  
+  -webkit-touch-callout: none;
+}
+
+#menuToggle img
+{
+    display: block;
+    width: 106px;
+    height: 106px;
+    position: fixed;
+    top: 0.1rem;
+    right: 0.1rem;
+  
+  
+  z-index: 1;
+  
+  transform-origin: 53px 53px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle input:checked ~ .wheel
+{
+  opacity: 1;
+  transform: rotate(-225deg);
+}
+
+#menu
+{
+  position: absolute;
+  max-width: 400px;
+  width: 100vw;
+  max-height: 100vh;
+  margin: -10px 0 0 -250px;
+  margin-top: 50px;
+  padding: 50px;
+  padding-top: 50px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: #ffb96e;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menu li a
+{
+    color: rgb(238, 57, 93);
+    font-size: 30px;
+    font-family: "Toxigenesis", sans-serif;
+}
+
+#menu li label
+{
+  cursor: pointer;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
+ .reg 
+{
+    z-index: 999999;
+    position: fixed;
+    justify-self: center;
+    margin-top: 10rem;
+    background-color: #99e9dc93;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 800px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+ .reg h2 
+{
+    color: crimson;
+    margin-bottom: 20px;
+}
+
+ .reg label 
+{
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+ .reg input[type="text"],
+ .reg input[type="email"],
+ .reg input[type="password"],
+ .reg select 
+{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button[type="submit"] 
+{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffa340;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.merchGrid
+{
+    width: 60%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.merchGrid div
+{
+    position: relative;
+    margin: 1rem;
+    width: 280px;
+    height: 275px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    cursor: default;
+    align-items: center;
+}
+
+.merchGrid div img
+{
+
+}
+
+.merchBack
+{
+    background-color: #00000000;
+    bottom: 294px;
+    right: 1rem;
+    position: relative;
+    opacity:0;
+    transition: all 0s ease;
+}
+
+.merchElement:hover .merchBack
+{
+    opacity: 1;
+}
+
+.merchOverlay
+{
+    position: relative;
+    bottom: 294px;
+    right: 1rem;
+    margin: 1rem;
+    width: 280px;
+    height: 275px;
+    background-color: #9bcddc;
+    opacity: 0;
+    transition: all 0.4s ease;
+    text-align: center;
+    line-height: 270px;
+    color: rgb(235, 129, 54);
+    font-size: 24px;
+    font-family: "Toxigenesis", sans-serif;
+}
+
+.merchElement:hover div .merchOverlay
+{
+    opacity: 0.6;
+}
+
+.merchElement:hover img
+{
+    opacity: 1;
+}
+
+@media (orientation: portrait) 
+{
+    .header
+    {
+        width: fit-content;
+    }
+    .header .logo
+    {
+        display: none;
+    }
+    .header .logo img
+    {
+        display: none;
+    }
+    .header nav
+    {
+        display: none;
+    }
+    .header h1
+    {
+        margin-left: 1rem;
+        padding-right: 2rem;
+    }
+    h1
+    {
+        font-size: 39px;
+    }
+    h2
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    h3
+    {
+        text-align: center;
+    }
+    .showroom
+    {
+        height: fit-content;
+    }
+    .merchRow
+    {
+        flex-direction: column-reverse;
+    }
+    .newsRow
+    {
+        flex-direction: column;
+    }
+    .showroom div div
+    {
+        position: relative;
+        display: block;
+        width: 90%;
+        height: 12rem;
+        margin: 1rem;
+        justify-self: center;
+        font-size: 55px;
+        line-height: 12rem;
+    }
+        .showroom div p
+    {
+        width: 85%;
+        font-size: 25px;
+        font-family: "Toxigenesis", sans-serif;
+        text-align: center;
+    }
+    .troubleShooting textarea
+    {
+        resize: none;
+        width: 10rem;
+    }
+
+    .imgright
+    {
+        width: 90%;
+        display: block;
+        margin: auto;
+        float: none;
+        height: auto;
+    }
+    p
+    {
+        text-align: center;
+    }
+
+    .hover p
+    {
+        text-align: left;
+    }
+
+    .merchGrid
+    {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1900px)
+{
+    .welcome h2 
+    {
+        font-size: 60px;
+    }
+
+    p, b a, .list, dt
+    {
+        font-size: 30px;
+    }
+
+    .showroom div p
+    {
+        width: 1000px;
+        font-size: 50px;
+        font-family: "Toxigenesis", sans-serif;
+    }
+
+    .imgright
+    {
+        width: 800px;
+        height: 460px;
+    }
+
+    .merchOverlay
+    {
+    position: relative;
+    bottom: 467px;
+    right: 1rem;
+    margin: 1rem;
+    width: 280px;
+    height: 275px;
+    background-color: #9bcddc;
+    opacity: 0;
+    transition: all 0.4s ease;
+    text-align: center;
+    line-height: 430px;
+    color: rgb(235, 129, 54);
+    font-size: 32px;
+    font-family: "Toxigenesis", sans-serif;
+    }
+
+    .merchBack
+    {
+    background-color: #00000000;
+    bottom: 467px;
+    right: 1rem;
+    position: relative;
+    opacity:0;
+    transition: all 0s ease;
+    }
+    .merchGrid div
+    {
+    position: relative;
+    margin: 1rem;
+    width: 457px;
+    height: 450px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    cursor: default;
+    align-items: center;
+    }
+    .merchGrid div img
+    {
+    margin: 87px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 1300px)
+{
+
+    .welcome h2 
+    {
+        font-size: 40px;
+    }
+
+    .showroom div p
+    {
+        width: 500px;
+        font-size: 30px;
+        font-family: "Toxigenesis", sans-serif;
+    }
+
+    .showroom
+    {
+        height: 50rem;
+    }
+
+    .showroom div div
+    {
+        line-height: 20rem;
+    }
+    nav
+    {
+        display: none;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 1000px)
+{
+        h1
+    {
+        font-size: 45px;    
+    }
+    .welcome h2 
+    {
+        font-size: 30px;
+    }
+
+    .showroom div p
+    {
+        width: 350px;
+        font-size: 23px;
+        font-family: "Toxigenesis", sans-serif;
+    }
+
+    .showroom
+    {
+        height: 30rem;
+    }
+
+    .showroom div div
+    {
+        width: 50%;
+        height: 12rem;
+        margin: 1rem;
+        justify-self: center;
+        font-size: 55px;
+        line-height: 12rem;
+    }
+    nav
+    {
+        display: none;
+    }
+    .imgright
+    {
+        width: 300px;
+        height: 160px;
+    }
+}
+@media (max-width: 470px)
+{
+    h1
+    {
+        width: 250px;
+    }
+}
